@@ -1,0 +1,32 @@
+# Ignore all log files
+*.log
+
+# Ignore all XML files
+*.xml
+
+# Ignore the build directory and its contents
+build/
+build/**
+
+# Ignore classes directories and their contents at any level
+**/classes/
+**/classes/**
+
+# Ignore nbproject and test directories and their contents at any level
+**/nbproject/
+**/nbproject/**
+**/test/
+**/test/**
+
+# Ignore specific files by extension
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore manifest files
+MANIFEST.MF
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
